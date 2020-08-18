@@ -4,3 +4,11 @@ a,b=0,1
 while a<n:
     print(a,end=' ')
     a,b=b,a+b
+    
+#second part
+a=(input('Input: list1=')) "input the list in the form  a b c "
+list=a.split(' ')
+for i in b:
+    if int(i)>0:
+        print(i)
+
